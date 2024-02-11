@@ -4,9 +4,9 @@
 
 
 .img1{
-    margin-top: 4vh;
-    margin-left: 6vh;
-    height: 16vh;
+    margin-top: 0vh;
+    margin-left: 10vh;
+    height: 28vh;
     padding-bottom: 2vh;
 
     
@@ -19,9 +19,10 @@
         justify-content: space-between;
         align-items: center;
         /* gap: 5vh; */
-        padding-right: 5%;
+        padding-right: 9%;
         color: #FFD0D0;
         font-size: 1.2rem;
+        
 
 
     }
@@ -59,4 +60,16 @@
         background-color:#9E00FF ;
         border-radius: 1.5em;
         color: #FFD0D0;
+    }
+
+
+    @media (max-width: 768px) {
+        .navbar {
+            /* Adjust styles for smaller screens */
+            margin-top: 1vh;
+            margin-left: 1vh;
+            margin-right: 10vh;
+        }
+    
+      
     }

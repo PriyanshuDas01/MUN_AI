@@ -1,14 +1,32 @@
 
 
 .Frontdiv{
-    z-index: -1;
+    z-index: 0;
     margin-top: 2vh;
     margin-left: 2vh;
     margin-right: 2vh;
+    align-items: center;
     
 }
 
 .img2{
-    margin-left: 56vh;
+    
     margin-top: 5vh;
+    margin-left: 58vh;
+}
+
+@media (max-width: 768px) {
+    .Frontdiv {
+        /* Adjust styles for smaller screens */
+        margin-top: 20vh;
+        margin-left: 1vh;
+        margin-right: 3vh;
+    }
+
+    .img2 {
+        /* Adjust styles for smaller screens */
+        margin-top: 3vh;
+        margin-left: 37vh;
+        height: 120vh;
+    }
 }

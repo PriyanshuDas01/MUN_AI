@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 .About{
-    margin-top: 200vh;
+    margin-top: 20vh;
+    font-family: 'Sixtyfour', sans-serif;
     
+    margin-left: 78vh;
+    font-size: 3vh;
+    color: #FFD0D0;
+    
+}
+
+@media (max-width: 768px){
+    .About{
+        margin-left: 72vh;
+        font-size: 5.5vh;
+       }
+}
+.TextAbout{
+    margin-top: 15vh;
+    width: 80vh;
+    
+    margin-left: 10vh;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #FFD0D0;
 }

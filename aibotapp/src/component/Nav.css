@@ -6,8 +6,9 @@
 .img1{
     margin-top: 0vh;
     margin-left: 10vh;
-    height: 28vh;
+    height: 10vh;
     padding-bottom: 2vh;
+    border-radius: 50%;
 
     
     }
@@ -18,19 +19,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* gap: 5vh; */
-        padding-right: 9%;
+        gap: 5vh;
+        padding-right: 15%;
         color: #FFD0D0;
-        font-size: 1.2rem;
-        
-
+        font-size: 1rem;
+     position: fixed;
 
     }
 
+    
     .navbar ul{
         list-style: none;
         display: flex;
-        gap: 2rem;
+        gap: 1.8rem;
+        margin-top: 2vh;
+        margin-left: 80vh;
+
     }
 
     .navbar a{
@@ -70,6 +74,6 @@
             margin-left: 1vh;
             margin-right: 10vh;
         }
-    
+  
       
     }

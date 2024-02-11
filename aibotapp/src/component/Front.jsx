@@ -1,6 +1,6 @@
-import React, { PureComponent, useEffect } from 'react';
+import React, { PureComponent,  } from 'react';
 import './Front.css';
-import Img2 from './img1.png';
+import Img2 from './pikachu.png';
 // import Aos from 'aos';
 // import 'aos/dist/aos.css';
 
@@ -14,14 +14,21 @@ import Img2 from './img1.png';
 
 export class Front extends PureComponent {
   render() {
-      return (
+    return (
+        <div>
       
           <div className='Frontdiv'>
       
               <img src={Img2} alt='img2' className='img2'></img>
              
         
-              </div>
+        </div>
+        
+        <div className='WelcomeText'>
+<h2>Decode, Analyze, Decipher!!</h2>
+        </div>
+        </div>
+
             
     )
   }

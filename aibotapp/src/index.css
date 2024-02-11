@@ -23,10 +23,12 @@ body {
   
   overflow: hidden;
   overflow-y: scroll;
+  overflow-x: hidden;
   
 
 
 }
+
 
 code {
   font-family: 'Poppins', sans-serif

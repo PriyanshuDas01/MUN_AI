@@ -15,7 +15,7 @@
 
 .img2{
     
-    margin-top: 25vh;
+    margin-top: 15vh;
     margin-left: 62vh;
     height: 50vh;
 }
@@ -64,12 +64,12 @@
     .img2 {
         /* Adjust styles for smaller screens */
         margin-top: 33vh;
-        margin-left: 47vh;
+        margin-left: 40vh;
         height: 100vh;
      
     }
     .WelcomeText{
-     padding-left:33vh ;
+     padding-left:28vh ;
      font-size: 3vh;
     }
 

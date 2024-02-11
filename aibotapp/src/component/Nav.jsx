@@ -8,7 +8,8 @@ export class Nav extends PureComponent {
     
       return (
         <div className='navbar'>
-          <img src={Frontimg} className="img1" alt="img" />
+          <div>  <img src={Frontimg} className="img1" alt="img" /></div>
+        <div>
           <ul>
             <li className='active'>
               <a href='#'>Home</a>
@@ -20,7 +21,7 @@ export class Nav extends PureComponent {
               <a href='$'>Contribute</a>
             </li>
           </ul>
-            
+          </div>
         </div>
       )
     }

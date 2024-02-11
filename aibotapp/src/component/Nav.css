@@ -7,7 +7,8 @@
     margin-top: 0vh;
     margin-left: 10vh;
     height: 10vh;
-    padding-bottom: 2vh;
+    width: 10vh;
+    /* padding-bottom: 2vh; */
     border-radius: 50%;
 
     
@@ -23,7 +24,7 @@
         padding-right: 15%;
         color: #FFD0D0;
         font-size: 1rem;
-     position: fixed;
+     /* position: fixed; */
 
     }
 
@@ -69,10 +70,27 @@
 
     @media (max-width: 768px) {
         .navbar {
-            /* Adjust styles for smaller screens */
+            /* Adjust styles for smaller screens
             margin-top: 1vh;
             margin-left: 1vh;
-            margin-right: 10vh;
+            
+            font-size: 2.5vh;
+         */
+         flex-direction: column;
+        
+        
+        
+        }
+
+        .img1{
+            height: 37vh;
+            margin-left: 20vh;
+
+        }
+        .navbar ul {
+            font-size: 4vh;
+            margin-right: 54vh; 
+
         }
   
       

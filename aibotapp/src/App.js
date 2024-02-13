@@ -6,7 +6,7 @@ import About from './component/About';
 import Bot from './component/bot';
 import HowUse from './component/HowUse';
 import Contribute from './component/Contribute';
-
+import Footer from './component/Footer';
 
 
 
@@ -24,6 +24,8 @@ const App = () => {
       <About /> 
       <HowUse />
       <Contribute />
+      <Footer />
+     
       
     
    

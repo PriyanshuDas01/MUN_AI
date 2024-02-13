@@ -4,6 +4,8 @@ import Nav from './component/Nav';
 import Front from './component/Front';
 import About from './component/About';
 import Bot from './component/bot';
+import HowUse from './component/HowUse';
+import Contribute from './component/Contribute';
 
 
 
@@ -14,10 +16,15 @@ import Bot from './component/bot';
 const App = () => {
   return (
     <>
-     <Nav />
+      <Nav />
+   
       <Front />
       <Bot />
+     
       <About /> 
+      <HowUse />
+      <Contribute />
+      
     
    
    

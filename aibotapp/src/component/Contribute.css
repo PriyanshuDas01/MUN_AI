@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+.ContributeHeading{
+    margin-top: 20vh;
+    font-family: 'Sixtyfour', sans-serif;
+    
+    margin-left: 78vh;
+    font-size: 3vh;
+    color: #FFD0D0;
+}
+
+.ContributeText{
+    background-color:#9E00FF;
+    border-radius: 6vh;
+    margin-top: 9vh;
+    width: 80vh;
+    flex: 1;
+    margin-left: 50vh;
+    margin-right: 10vh;
+    font-size: 2.5vh;
+    font-weight: 2vh;
+    padding: 5vh;
+    
+   
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #FFD0D0;
+  line-height: 5vh;
+
+}
+
+.ContributeText button{
+    margin-left: 26vh;
+   padding: 1vh;
+   border-radius: 1vh;
+    background-color: #FFD0D0;
+    font-family: 'Sixtyfour', sans-serif;
+}

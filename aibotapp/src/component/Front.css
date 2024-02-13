@@ -9,6 +9,7 @@
     margin-left: 2vh;
     margin-right: 2vh;
     align-items: center;
+   
 
     
 }
@@ -32,7 +33,7 @@
          margin: 5 auto; /* Gives that scrolling effect as the typing happens */
          letter-spacing: .15em; /* Adjust as needed */
          animation: 
-           typing 3.5s steps(40, end),
+           typing 3.5s steps(60, end),
            blink-caret .75s step-end infinite;
 
        }
@@ -40,7 +41,7 @@
        /* The typing effect */
        @keyframes typing {
          from { width: 0vh }
-         to { width: 90vh }
+         to { width: 100vh }
        }
        
        /* The typewriter cursor effect */
@@ -63,19 +64,21 @@
 
     .img2 {
         /* Adjust styles for smaller screens */
-        margin-top: 33vh;
-        margin-left: 40vh;
-        height: 100vh;
+        margin-top: 20vh;
+        margin-left: 3vh;
+        height: 35vh;
+        margin-bottom: 4vh;
      
     }
     .WelcomeText{
-     padding-left:28vh ;
-     font-size: 3vh;
+    
+     font-size: 0.9vh;
+     padding-left: 2vh;
     }
 
     @keyframes typing {
         from { width: 0vh }
-        to { width: 135vh }
+        to { width: 40vh }
       }
       
     

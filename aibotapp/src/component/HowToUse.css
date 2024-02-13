@@ -5,81 +5,82 @@
 
 
 
-
-.About{
+.HowHeading{
     margin-top: 20vh;
     font-family: 'Sixtyfour', sans-serif;
     
     margin-left: 78vh;
     font-size: 3vh;
     color: #FFD0D0;
-  
-  
-  
-    
 }
-.containerAbout{
+
+
+.HowComponents{
     display: flex;
 }
 
 @media (max-width: 768px){
-    .About{
-        margin-left: 11vh;
+    .HowHeading{
+        margin-left: 9vh;
         font-size: 2.5vh;
-        margin-top: 30vh;
+        margin-top: 10vh;
        }
 }
 
 /* Main contents.............................. */
 
-.TextAbout{
-    margin-top: 15vh;
+.HowText{
+    margin-top: 9vh;
     width: 80vh;
     flex: 1;
     margin-right: 10vh;
-    
+    font-size: 2.5vh;
+    font-weight: 2vh;
     
     margin-left: 10vh;
     font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
   color: #FFD0D0;
+  line-height: 5vh;
 }
 
 
 
-.AboutImg img{
-    border-radius: 50%;
-    height: 60vh;
-    width: 60vh;
+.HowImg img{
+  
+    height: 55vh;
+    width: 55vh;
     flex: 1;
-    margin-right: 25vh;
-    margin-top: 6vh;
+  margin-left: 15vh;
+    margin-top: 10vh;
   
   
 }
 
-.AboutImg img:hover{
+.HowImg img:hover{
   
     transform: translateY(-10px) 
 }
 /* FOr small screen.............................................................. */
 @media (max-width: 768px)
 {
-    .containerAbout{
+    .HowComponents{
         flex-direction: column;
     }
-    .AboutImg img{
+    .HowImg img{
         height: 30vh;
         width: 30vh;
         margin-left: 7vh;
         
     }
 
-    .TextAbout{
+    .HowText{
         font-size: 1vh;
         width: fit-content;
         margin-right: 3vh;
-        margin-left: 5vh;
+        margin-left: 3vh;
+        margin-top: 5vh;
+        line-height: 2.5vh;
     }
 }

@@ -26,10 +26,10 @@ export class About extends PureComponent {
         </div>
 <div className='containerAbout'>
         <div className='TextAbout' data-aos="fade-right">
-          <h2>
+          <h2><p>
           Welcome to Decipher AI, 
 a non-profit initiative harnessing the power of ChatGPT. Our chatbot, meticulously trained on the latest data from trusted news sites and authoritative documents, serves as your indispensable tool for navigating the dynamic landscape of geopolitics. Empower your knowledge with Decipher AI and unlock the insights within the ever-evolving world. Discover the undeciphered facts that shape our global narrative.
-
+</p>
 
           </h2>
        

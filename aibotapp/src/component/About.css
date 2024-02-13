@@ -7,7 +7,8 @@
 
 
 .About{
-    margin-top: 20vh;
+    padding-top: 8vh;
+    margin-top: 10vh;
     font-family: 'Sixtyfour', sans-serif;
     
     margin-left: 78vh;
@@ -26,14 +27,15 @@
     .About{
         margin-left: 11vh;
         font-size: 2.5vh;
-        margin-top: 30vh;
+        padding-top: 4vh;
+        margin-top: 25vh;
        }
 }
 
 /* Main contents.............................. */
 
 .TextAbout{
-    margin-top: 15vh;
+    margin-top: 10vh;
     width: 80vh;
     flex: 1;
     margin-right: 10vh;

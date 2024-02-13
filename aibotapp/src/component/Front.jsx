@@ -15,7 +15,7 @@ import Img2 from './pikachu.png';
 export class Front extends PureComponent {
   render() {
     return (
-        <div>
+        <div className='FrontContainer' id='Front'>
       
           <div className='Frontdiv'>
       

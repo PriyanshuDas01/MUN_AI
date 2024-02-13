@@ -13,14 +13,21 @@
     font-size: 3vh;
     color: #FFD0D0;
 }
+@media (max-width: 768px){
+    .ContributeHeading{
+        margin-left: 10vh;
+        font-size: 2.5vh;
+        margin-top: 10vh;
+       }
+    }
 
 .ContributeText{
     background-color:#9E00FF;
     border-radius: 6vh;
     margin-top: 9vh;
-    width: 80vh;
+    width: 100vh;
     flex: 1;
-    margin-left: 50vh;
+    margin-left: 35vh;
     margin-right: 10vh;
     font-size: 2.5vh;
     font-weight: 2vh;
@@ -31,14 +38,52 @@
   font-optical-sizing: auto;
   font-style: normal;
   color: #FFD0D0;
-  line-height: 5vh;
+  line-height: 4vh;
 
 }
 
+    
+
 .ContributeText button{
-    margin-left: 26vh;
-   padding: 1vh;
+    margin-left: 37vh;
+   padding: 1.5vh;
    border-radius: 1vh;
     background-color: #FFD0D0;
     font-family: 'Sixtyfour', sans-serif;
 }
+
+.ContributeText button:hover{
+    transform: translateY(-2px);
+  
+    color:#09a1ff;
+  
+}
+
+/* For small screens............................................ */
+
+@media (max-width: 768px)
+{
+   
+  
+
+    .ContributeText{
+        font-size: 1vh;
+        width: 30vh;
+        height: fit-content;
+    padding-top: 0.8vh;
+   
+        margin-left: 2vh;
+        line-height: 2.5vh;
+    }
+    .ContributeText button{
+        margin-left: 4.5vh;
+       padding: 0.5vh;
+       border-radius: 1vh;
+        background-color: #FFD0D0;
+        font-family: 'Sixtyfour', sans-serif;
+        padding-bottom: 0.5vh;
+        font-size: 1.2vh;
+    }
+
+}
+   

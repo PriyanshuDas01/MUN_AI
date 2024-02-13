@@ -7,18 +7,18 @@ export class Nav extends PureComponent {
   
     
       return (
-        <div className='navbar'>
+        <div className='navbar' id='Nav'>
           <div>  <img src={Frontimg} className="img1" alt="img" /></div>
         <div>
           <ul>
             <li className='active'>
-              <a href='#'>Home</a>
+              <a href='#Nav'>Home</a>
             </li>
             <li>
-              <a href='#'>About</a>
+              <a href='#About'>About</a>
             </li>
             <li>
-              <a href='$'>Contribute</a>
+              <a href='#Contribute'>Contribute</a>
             </li>
           </ul>
           </div>

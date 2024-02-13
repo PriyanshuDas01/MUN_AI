@@ -28,7 +28,7 @@ export class HowUse extends PureComponent {
               <li>
               you may add prompts like <b>“provide me with the links for the source of your info”</b> to get all the reference links of the verified news website.
               </li>
-              <li>    Now Explore and get help form <b>Chatgpt</b> to unleash your limits.</li>
+              <li>    Now Explore and get help form <b>Chatgpt + Internet</b> to unleash your limits.</li>
 
 
 

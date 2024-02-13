@@ -17,7 +17,7 @@ export class About extends PureComponent {
     return (
 
      
-    <div>
+    <div id='About'>
       <div className='About' data-aos="flip-up">
         About Us!
 

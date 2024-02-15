@@ -58,6 +58,10 @@
     color:#09a1ff;
   
 }
+.Contribute a{
+    color: inherit;
+        text-decoration: none;
+}
 
 /* For small screens............................................ */
 

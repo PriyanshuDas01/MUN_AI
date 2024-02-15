@@ -26,7 +26,7 @@ export class HowUse extends PureComponent {
               <li>Say <b>“HI”</b> to start the conversation and select a resource from where you want to fetch info.</li>
               <li>Now type your question and get instant verified results.</li>
               <li>
-              you may add prompts like <b>“provide me with the links for the source of your info”</b> to get all the reference links of the verified news website.
+              you will be provided with the <b>source links</b> of the generated info based on your selected news library.
               </li>
               <li>    Now Explore and get help form <b>Chatgpt + Internet</b> to unleash your limits.</li>
 

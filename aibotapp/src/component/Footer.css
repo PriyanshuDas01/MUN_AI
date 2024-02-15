@@ -12,8 +12,11 @@
 
   background-color:black ;
   margin-top: 21vw;
-  bottom: 0vh;
-  
+  bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position:relative;
+
   z-index: 1000;
   
 

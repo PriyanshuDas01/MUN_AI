@@ -77,3 +77,29 @@ margin-left: 0vh;
     
   }
 }
+
+
+/* Ipad responsive .....................................................*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)
+{
+    .footer p{
+        margin-left: 12vw;
+    }
+    .footer img{
+        margin-left: 8vw;
+    }
+
+}
+
+/* iPads (portrait) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .footer p{
+        margin-left: 25vw;
+    }
+
+   
+}

@@ -97,3 +97,21 @@
   
       
     }
+
+
+
+    /* Responsive added........................................................ */
+
+/* iPads (portrait) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+{  .navbar ul{
+    margin-left: 16vw;
+}
+
+
+}
+
+

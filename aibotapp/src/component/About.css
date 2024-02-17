@@ -86,3 +86,75 @@
         margin-left: 5vh;
     }
 }
+
+
+/* Ipad pro........................................................... */
+/* @media (max-device-width : 820px) {
+
+    .containerAbout{
+        flex-direction: column;
+    }
+    .AboutImg img{
+        height: 30vh;
+        width: 30vh;
+        margin-left: 7vh;
+        
+    }
+
+    .TextAbout{
+        font-size: 1vh;
+        width: fit-content;
+        margin-right: 3vh;
+        margin-left: 5vh;
+    }
+
+} */
+
+ /* Ipad responsive .....................................................*/
+
+ @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)
+ {
+    .AboutImg img{
+        margin-left: 30vw;
+    }
+    .TextAbout{
+        margin-left: 15vw;
+        margin-right: 10vw;
+    }
+
+    .About{
+        padding-left: 22vw;
+    }
+
+
+
+
+ }
+
+
+ 
+ @media only screen 
+ and (min-device-width : 768px) 
+ /* and (max-device-width : 1024px) 
+ and (orientation : landscape) */
+ {
+    /* .containerAbout{
+        flex-direction: column;
+    } */
+    .AboutImg img{
+        
+        margin-left: 7vh;
+        
+    }
+
+    /* .TextAbout{
+        
+       
+       
+        margin-left: 15vw;
+    } */
+    
+.About{
+    margin-left: 42vw;
+}
+ }

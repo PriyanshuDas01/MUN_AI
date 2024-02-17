@@ -84,3 +84,26 @@
         line-height: 2.5vh;
     }
 }
+
+
+ /* Ipad responsive .....................................................*/
+
+ /* @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)
+ {
+    .HowImg img{
+        margin-left: 29vw;
+    }
+
+    .HowHeading{
+        margin-left: 32vw;
+    }
+
+    .HowText{
+        font-size: 1.6vh;
+        margin-left: 10vh;
+    }
+
+
+
+
+ } */
